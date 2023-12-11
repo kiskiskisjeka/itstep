@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Замовлення суші</h2>
+        <form action="/search" method="post">
+           
+            <ul>
+                <li>
+                    <label for="">Ім"я</label>
+                    <br>
+                    <input type="text" id="nick" name="userNick">
+                </li>
+                <li>
+                    <label for="">Адреса</label>
+                    <br>
+                    <input type="text" id="nick" name="userNick">
+                </li>
+                <li>
+                    <label for="">Email:</label>
+                    <br>
+                    <input type="email" id="email" name="userEmail">
+                </li>
+                <li>
+                    <label for="">Tel:</label>
+                    <br>
+                    <input type="tel" id="tel" name="userTel">
+                </li>
+                <li>
+                    <label for="message">Кількість паличок</label>
+                    <br>
+                    <textarea name="userMessage" id="message" cols="10" rows="1"></textarea>
+                </li>
+                <li>
+                    <label for="nameofPizza">Вид паличок</label>
+                    <br>
+                    <select name="nameofPizza" id="nameofPizza">
+                       
+                        <option value="">навчальні</option>
+                        <option value="">звичайні</option>  
+                    </select>
+                </li>
+                <li>
+                    <label for="nameofPiza">Оберіть суші</label>
+                    <br>
+                    <select name="nameofPiza" id="nameofPiza">
+                        <option value="">Філадельфія</option>
+                        <option value="">Осама</option>  
+                        <option value="">Каліфорнія</option> 
+                        <option value="">Каліфорнія з вугрем</option> 
+                        <option value="">Каліфорнія з кревеикою</option> 
+                        <option value="">Футо макі</option> 
+                    </select>
+                </li>
+                <li>
+                    <label for="">Чи потрібні серветки</label>
+                    <br>
+                    <input type="radio" id="red" value="RED" name="redblue" >
+                    <label for="red">Так</label>
+                    <input type="radio" id="blue" name="redblue">
+                    <label for="blue">Ні</label>
+
+                </li>
+                <li>
+                    <label for="message">Додатковий коментар</label>
+                    <br>
+                    <textarea name="userMessage" id="message" cols="30" rows="5"></textarea>
+               
+                <li>
+                    <input type="date" id="date">
+
+                </li>
+                <li>
+                    <input type="time" id="time">
+                    
+                </li>
+                
+                <li>
+                    <button type="submit">Замовити</button>
+                </li>
+                
+           
+            </ul>
+
+        </form>
+
+    </div>
+    
+</body>
+</html>
